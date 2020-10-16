@@ -25,7 +25,7 @@ HOOKSCRIPT = """
         """
 
 redis_name = "serial_id"
-client = redis.Redis(host='192.168.4.60', port=6379, password='Pmi@gaia', db=5, decode_responses=True)
+client = redis.Redis(host='192.168.4.60', port=6379, password='xxxx', db=5, decode_responses=True)
 
 def get_serial_ids():
     serial_ids = client.smembers(redis_name)
