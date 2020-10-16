@@ -7,9 +7,9 @@ def send_msg(info, module):
     # 邮件构建
     # 授权密码 RXXIUPQSQNLDBGYK
     subject = module + " - 模块报错！！！"  # 邮件标题
-    sender = "pmi13311996183@163.com"  # 发送方  密码 pmi2020
+    sender = "pmi1331199xxxx@163.com"  # 发送方
     content = "错误信息 ===> " + info
-    receiver = "pmi13311996183@163.com" # 接收方 , 字符串列表，邮件发送地址
+    receiver = "pmi1331199xxxx@163.com" # 接收方 , 字符串列表，邮件发送地址
     password = "RXXIUPQSQNLDBGYK"
 
     message = MIMEText(content, "plain", "utf-8")
