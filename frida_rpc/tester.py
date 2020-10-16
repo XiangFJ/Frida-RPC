@@ -69,7 +69,7 @@ def restart_app(serial_id):
 def save2redis():
     # 检测手机设备，将 frida-server 正常开启的手机设备存入 redis
     redis_name = "serial_id"
-    client = redis.Redis(host='192.168.4.60', port=6379, password='Pmi@gaia', db=5, charset='utf-8')
+    client = redis.Redis(host='192.168.4.60', port=6379, password='xxxx', db=5, charset='utf-8')
 
     usable_serials = get_usable_serial()
     # purge pre redis
