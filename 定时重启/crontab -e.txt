@@ -1,0 +1,1 @@
+11 */1 * * * /root/Desktop/supervisor-conf/restart_api.sh >> /root/Desktop/FridaRpc/cronlog.log
